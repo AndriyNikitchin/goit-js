@@ -1,4 +1,4 @@
-"use strict"
+// "use strict"
 // let fruits = ["яблоки", "бананы", "апельсины"];
 
 // console.log(fruits);

@@ -141,29 +141,45 @@
 
 ///////////////////////////////////////////////////
 
-const hero = {
-    name: "Black cat",
-    power: 100,
-    lifes: 9,
-    speed: 45
-};
+// const hero = {
+//     name: "Black cat",
+//     power: 100,
+//     lifes: 9,
+//     speed: 45
+// };
 
-console.log("my hero", hero);
+// console.log("my hero", hero);
 
-const keysOfHero = Object.keys(hero);
-console.log(keysOfHero);
+// const keysOfHero = Object.keys(hero);
+// console.log(keysOfHero);
 
-for (const key of keysOfHero) {
-console.log("key: ",key);
-console.log("value: ", hero[key]);
-}
+// for (const key of keysOfHero) {
+// console.log("key: ",key);
+// console.log("value: ", hero[key]);
+// }
 
-const entriesOfHero = Object.entries(hero);
-console.log("entries Of Hero", entriesOfHero);
+// const entriesOfHero = Object.entries(hero);
+// console.log("entries Of Hero", entriesOfHero);
 
-for (const entry of entriesOfHero) {
-    const key = entry[0];
-    const value = entry[1];
+// for (const entry of entriesOfHero) {
+//     const key = entry[0];
+//     const value = entry[1];
 
-    console.log('${key}: ${value}')
-}
+//     console.log('${key}: ${value}')
+// }
+
+///////////////////////////////////////////
+
+// const hotel = {
+//     hotelName: "Resort Hotel",
+//     stars: 5,
+//     capacity: 100
+// };
+// console.log(hotel);
+// const { hotelName, stars, status = 5} = hotel;
+// console.log(hotel);
+// console.log('hotelName - ${hotelName}, stars - ${stars}, status - ${status}')
+
+///////////////////////////////////////////////////
+
+ 
