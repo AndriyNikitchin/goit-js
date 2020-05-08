@@ -1,0 +1,97 @@
+"use strict"
+
+////////////////////////////////////
+
+// const user = {
+
+//  name: "Semen",
+      
+//  age: 15,
+      
+//  hobby: "html",
+      
+//  premium: true,
+      
+// };
+    
+// user.mood = "happy";
+// user.hobby = "coding";
+// user.premium = false;
+    
+// const toShowUpdatedUser = function(obj){
+//     const arrUser = Object.keys(obj);
+//     console.log (arrUser);
+//     for(let elArrUser of arrUser){
+//     console.log(elArrUser);
+//     console.log(`${elArrUser}:${obj[elArrUser]}`);
+//     }
+// };
+// toShowUpdatedUser(user);
+
+// 1-done
+
+//////////////////////////////////////////////
+
+// const countProps  = function(obj){
+//     const arrCountProps = Object.keys(obj).length;
+//     console.log(arrCountProps);
+// }
+// console.log(countProps({}));
+// console.log(countProps({ name: "Mango", age: 2 })); 
+// console.log(countProps({ mail: "poly@mail.com", isOnline: true, score: 500 })); 
+
+// 2-done
+
+///////////////////////////////////////////////////
+
+// const countTotalSalary = function(employees){
+//     let arrCountTotalSalary = Object.values(employees);
+//     let totalCount = 0;
+//     for(let count of arrCountTotalSalary){
+//         totalCount += count;
+//     }
+//     return totalCount;
+// }
+// console.log(countTotalSalary({})); 
+
+// console.log(
+//   countTotalSalary({
+//     mango: 100,
+//     poly: 150,
+//     alfred: 80,
+//   })
+// ); 
+// console.log(
+//   countTotalSalary({
+//     qiwi: 200,
+//     lux: 50,
+//     chelsy: 150,
+//   })
+// ); 
+
+// //3-done
+
+///////////////////////////////////////////////////////
+
+// const products = [
+//     { name: "Радар", price: 1300, quantity: 4 },
+//     { name: "Сканер", price: 2700, quantity: 3 },  
+//     { name: "Дроид", price: 400, quantity: 7 }, 
+//     { name: "Захват", price: 1200, quantity: 2 },
+//   ];
+
+//   const calculateTotalPrice = function (allProdcuts, productName) {
+//          let total;
+//          for(let a = 0; a < allProdcuts.length; a++ ){ 
+//             let arrObject = Object.values(allProdcuts[a]);
+//              if(arrObject[0] == productName){
+//                  total = arrObject[1] * arrObject[2]; 
+//              }
+//          }
+//          console.log(total);
+//    };
+//    console.log(calculateTotalPrice(products, "Радар")); 
+
+// console.log(calculateTotalPrice(products, "Дроид")); 
+
+// //4-done
